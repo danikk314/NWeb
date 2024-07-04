@@ -31,6 +31,7 @@ body {
     background-color: transparent;
     border-radius: 20px;
     border: solid gray 1px;
+    font: white;
 }
 .console {
     position: absolute;
