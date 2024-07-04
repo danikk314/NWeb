@@ -31,7 +31,7 @@ body {
     background-color: transparent;
     border-radius: 20px;
     border: solid gray 1px;
-    font: white;
+    color: white;
 }
 .console {
     position: absolute;
@@ -42,7 +42,6 @@ body {
     height: 20%;
     border-radius: 20px;
     border: solid gray 1.5px;
-    font: red;
 }
 * {
     box-sizing: border-box;
