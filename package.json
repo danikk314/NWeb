@@ -1,20 +1,13 @@
 {
-  "name": "Chat",
+  "name": "NWeb-main",
   "version": "1.0.0",
-  "description": "A mini Chat for our class",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.3",
+    "mongoose": "^5.13.2",
     "dotenv": "^10.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  },
-  "author": "D.B314",
-  "license": "WTF?"
+  }
 }
