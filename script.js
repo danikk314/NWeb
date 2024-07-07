@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   let String1, String2, String3, String4, String5;
 
-  // Funktion zum Laden aller Strings und Aktualisieren der Variablen
   async function loadStrings() {
     try {
       const response = await fetch('/get-strings');
@@ -17,7 +16,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         stringListElement.appendChild(li);
       });
 
-      // Aktualisiere die Variablen
       String1 = data[0] || null;
       String2 = data[1] || null;
       String3 = data[2] || null;
@@ -32,10 +30,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 
-  // Initial alle Strings laden
   await loadStrings();
 
-  // Event-Listener für das Formular
   stringForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const value = stringInput.value;
