@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Queue Example</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container">
-        <i class="material-icons" id="icode" onclick="clicked()">code</i>
-        <div class="console">
-            <div class="output" id="output"></div>
-            <input type="text" id="input" placeholder="Befehl eingeben...">
-        </div>
-    </div>
-    <script src="script.js"></script>
+  <h1>String Queue Example</h1>
+  <form id="stringForm">
+    <input type="text" id="stringInput" placeholder="Enter a string" required>
+    <button type="submit">Save String</button>
+  </form>
+  <ul id="stringList"></ul>
+  <script src="script.js"></script>
 </body>
 </html>
